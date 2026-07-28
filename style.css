@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f9fb;
+color:#333;
+line-height:1.6;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#002b5b;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+
+.logo img{
+width:60px;
+margin-right:10px;
+}
+
+.logo h2{
+color:#fff;
+font-size:24px;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:#fff;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#ff6b00;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+background:#eaf3ff;
+flex-wrap:wrap;
+}
+
+.hero-text{
+max-width:550px;
+}
+
+.hero-text h1{
+font-size:50px;
+color:#002b5b;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#ff6b00;
+color:#fff;
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+margin-right:10px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#e65f00;
+}
+
+.btn2{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.hero-image img{
+width:100%;
+max-width:520px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
